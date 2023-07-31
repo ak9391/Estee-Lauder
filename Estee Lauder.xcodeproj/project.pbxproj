@@ -13,6 +13,8 @@
 		70315D012A72AF0C000C6381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70315D002A72AF0C000C6381 /* Preview Assets.xcassets */; };
 		70315D0F2A77A01F000C6381 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70315D0E2A77A01F000C6381 /* LaunchScreenView.swift */; };
 		70315D112A77A504000C6381 /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70315D102A77A504000C6381 /* LaunchScreenManager.swift */; };
+		70315D132A77B243000C6381 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 70315D122A77B242000C6381 /* video1.mp4 */; };
+		70315D192A77EBCE000C6381 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70315D182A77EBCE000C6381 /* ProductsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		70315D0D2A779205000C6381 /* Estee-Lauder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Estee-Lauder-Info.plist"; sourceTree = SOURCE_ROOT; };
 		70315D0E2A77A01F000C6381 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		70315D102A77A504000C6381 /* LaunchScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
+		70315D122A77B242000C6381 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		70315D182A77EBCE000C6381 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 				70315D0D2A779205000C6381 /* Estee-Lauder-Info.plist */,
 				70315CF92A72AF0A000C6381 /* Estee_LauderApp.swift */,
 				70315CFB2A72AF0A000C6381 /* ContentView.swift */,
+				70315D182A77EBCE000C6381 /* ProductsView.swift */,
 				70315D102A77A504000C6381 /* LaunchScreenManager.swift */,
 				70315D0E2A77A01F000C6381 /* LaunchScreenView.swift */,
+				70315D122A77B242000C6381 /* video1.mp4 */,
 				70315CFD2A72AF0C000C6381 /* Assets.xcassets */,
 				70315CFF2A72AF0C000C6381 /* Preview Content */,
 			);
@@ -134,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70315D012A72AF0C000C6381 /* Preview Assets.xcassets in Resources */,
+				70315D132A77B243000C6381 /* video1.mp4 in Resources */,
 				70315CFE2A72AF0C000C6381 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 				70315CFA2A72AF0A000C6381 /* Estee_LauderApp.swift in Sources */,
 				70315D112A77A504000C6381 /* LaunchScreenManager.swift in Sources */,
 				70315D0F2A77A01F000C6381 /* LaunchScreenView.swift in Sources */,
+				70315D192A77EBCE000C6381 /* ProductsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

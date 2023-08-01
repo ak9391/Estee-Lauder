@@ -77,7 +77,7 @@ struct ContentView: View {
                         NavigationLink(destination: ProductsView()){
                             Text("➜")
                                 .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                                .frame(width: 120.0, height: 120.0)
+                                .frame(width: 100.0, height: 100.0)
                                 .foregroundColor(.white)
                                 .background(Color(red: 0.973, green: 0.34901960784313724, blue: 0.5058823529411764))
                                 .clipShape(Circle())

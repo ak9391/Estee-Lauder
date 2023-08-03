@@ -50,7 +50,7 @@ struct ProductsView: View {
     
                
 
-                    NavigationLink(destination: ContentView2()){
+                    NavigationLink(destination: ContentView3()){
                         Text("➜")
                             .padding(.bottom, 140.0)
                             .font(.custom("Akzidenz-Grotesk BQ", size: 60))

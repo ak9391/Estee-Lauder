@@ -27,6 +27,7 @@
 		706096162A7C3F9E00184824 /* PageModel4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096152A7C3F9E00184824 /* PageModel4.swift */; };
 		706096182A7C41FA00184824 /* PageView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096172A7C41FA00184824 /* PageView4.swift */; };
 		7060961A2A7C426800184824 /* ContentView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096192A7C426800184824 /* ContentView5.swift */; };
+		706096222A7C4C5A00184824 /* QAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096212A7C4C5A00184824 /* QAView.swift */; };
 		70BC398A2A793A6600DE44EC /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39822A793A6600DE44EC /* OptimaDisplay-Roman.ttf */; };
 		70BC398B2A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39832A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf */; };
 		70BC398C2A793A6600DE44EC /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39842A793A6600DE44EC /* OptimaDisplay-Light.ttf */; };
@@ -60,6 +61,7 @@
 		706096152A7C3F9E00184824 /* PageModel4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel4.swift; sourceTree = "<group>"; };
 		706096172A7C41FA00184824 /* PageView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView4.swift; sourceTree = "<group>"; };
 		706096192A7C426800184824 /* ContentView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView5.swift; sourceTree = "<group>"; };
+		706096212A7C4C5A00184824 /* QAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAView.swift; sourceTree = "<group>"; };
 		70BC39822A793A6600DE44EC /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
 		70BC39832A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.otf"; sourceTree = "<group>"; };
 		70BC39842A793A6600DE44EC /* OptimaDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Light.ttf"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				706096152A7C3F9E00184824 /* PageModel4.swift */,
 				706096172A7C41FA00184824 /* PageView4.swift */,
 				706096192A7C426800184824 /* ContentView5.swift */,
+				706096212A7C4C5A00184824 /* QAView.swift */,
 				70315D102A77A504000C6381 /* LaunchScreenManager.swift */,
 				70315D0E2A77A01F000C6381 /* LaunchScreenView.swift */,
 				70BC39812A793A6600DE44EC /* esteefonts */,
@@ -230,6 +233,7 @@
 			files = (
 				706096022A7C0B8200184824 /* PageModel.swift in Sources */,
 				7060960E2A7C2FCC00184824 /* ContentView3.swift in Sources */,
+				706096222A7C4C5A00184824 /* QAView.swift in Sources */,
 				70315CFC2A72AF0A000C6381 /* ContentView.swift in Sources */,
 				706096122A7C3B4D00184824 /* PageView3.swift in Sources */,
 				7060960A2A7C2B2F00184824 /* PageView2.swift in Sources */,

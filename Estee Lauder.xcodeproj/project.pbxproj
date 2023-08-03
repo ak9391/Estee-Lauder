@@ -15,6 +15,10 @@
 		70315D112A77A504000C6381 /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70315D102A77A504000C6381 /* LaunchScreenManager.swift */; };
 		70315D132A77B243000C6381 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 70315D122A77B242000C6381 /* video1.mp4 */; };
 		70315D192A77EBCE000C6381 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70315D182A77EBCE000C6381 /* ProductsView.swift */; };
+		706096022A7C0B8200184824 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096012A7C0B8200184824 /* PageModel.swift */; };
+		706096042A7C0D9600184824 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096032A7C0D9600184824 /* PageView.swift */; };
+		706096062A7C108C00184824 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096052A7C108B00184824 /* ContentView2.swift */; };
+		706096082A7C282500184824 /* PageModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096072A7C282500184824 /* PageModel2.swift */; };
 		70BC398A2A793A6600DE44EC /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39822A793A6600DE44EC /* OptimaDisplay-Roman.ttf */; };
 		70BC398B2A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39832A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf */; };
 		70BC398C2A793A6600DE44EC /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39842A793A6600DE44EC /* OptimaDisplay-Light.ttf */; };
@@ -23,7 +27,6 @@
 		70BC398F2A793A6600DE44EC /* OptimaEL-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39872A793A6600DE44EC /* OptimaEL-Text.ttf */; };
 		70BC39902A793A6600DE44EC /* OptimaEL-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39882A793A6600DE44EC /* OptimaEL-Roman.ttf */; };
 		70BC39912A793A6600DE44EC /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39892A793A6600DE44EC /* AkzidenzGroteskBQ-Bold.ttf */; };
-		70BC39932A79493300DE44EC /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BC39922A79493300DE44EC /* PromoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		70315D102A77A504000C6381 /* LaunchScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
 		70315D122A77B242000C6381 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		70315D182A77EBCE000C6381 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		706096012A7C0B8200184824 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		706096032A7C0D9600184824 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		706096052A7C108B00184824 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		706096072A7C282500184824 /* PageModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel2.swift; sourceTree = "<group>"; };
 		70BC39822A793A6600DE44EC /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
 		70BC39832A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.otf"; sourceTree = "<group>"; };
 		70BC39842A793A6600DE44EC /* OptimaDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Light.ttf"; sourceTree = "<group>"; };
@@ -45,7 +52,6 @@
 		70BC39872A793A6600DE44EC /* OptimaEL-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Text.ttf"; sourceTree = "<group>"; };
 		70BC39882A793A6600DE44EC /* OptimaEL-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Roman.ttf"; sourceTree = "<group>"; };
 		70BC39892A793A6600DE44EC /* AkzidenzGroteskBQ-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Bold.ttf"; sourceTree = "<group>"; };
-		70BC39922A79493300DE44EC /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,10 @@
 				70315CF92A72AF0A000C6381 /* Estee_LauderApp.swift */,
 				70315CFB2A72AF0A000C6381 /* ContentView.swift */,
 				70315D182A77EBCE000C6381 /* ProductsView.swift */,
-				70BC39922A79493300DE44EC /* PromoView.swift */,
+				706096052A7C108B00184824 /* ContentView2.swift */,
+				706096012A7C0B8200184824 /* PageModel.swift */,
+				706096032A7C0D9600184824 /* PageView.swift */,
+				706096072A7C282500184824 /* PageModel2.swift */,
 				70315D102A77A504000C6381 /* LaunchScreenManager.swift */,
 				70315D0E2A77A01F000C6381 /* LaunchScreenView.swift */,
 				70BC39812A793A6600DE44EC /* esteefonts */,
@@ -195,12 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BC39932A79493300DE44EC /* PromoView.swift in Sources */,
+				706096022A7C0B8200184824 /* PageModel.swift in Sources */,
 				70315CFC2A72AF0A000C6381 /* ContentView.swift in Sources */,
 				70315CFA2A72AF0A000C6381 /* Estee_LauderApp.swift in Sources */,
 				70315D112A77A504000C6381 /* LaunchScreenManager.swift in Sources */,
 				70315D0F2A77A01F000C6381 /* LaunchScreenView.swift in Sources */,
+				706096062A7C108C00184824 /* ContentView2.swift in Sources */,
 				70315D192A77EBCE000C6381 /* ProductsView.swift in Sources */,
+				706096082A7C282500184824 /* PageModel2.swift in Sources */,
+				706096042A7C0D9600184824 /* PageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

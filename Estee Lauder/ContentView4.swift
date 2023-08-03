@@ -35,7 +35,7 @@ struct ContentView4: View {
                                 .foregroundColor(.white)
                                 .padding(.bottom, 20.0)
                             
-                            NavigationLink(destination: ContentView()){
+                            NavigationLink(destination: ContentView2()){
                                 Text("➜")
                                 .font(.custom("Akzidenz-Grotesk BQ", size: 25))
                                 .frame(width: 80.0, height: 80.0)

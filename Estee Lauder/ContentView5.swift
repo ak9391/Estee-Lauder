@@ -1,19 +1,19 @@
 //
-//  ContentView2.swift
+//  ContentView5.swift
 //  Estee Lauder
 //
-//  Created by Ashrita Kantamneni on 8/3/23.
+//  Created by Ashrita Kantamneni on 8/4/23.
 //
 
 import SwiftUI
 
-struct ContentView2: View {
-    @State private var pageIndex = 0
-    private let pages: [Page] = Page.samplePages
+struct ContentView5: View {
+    
+    @State private var rIndex = 0
+    private let r: [Page4] = Page4.sampleRs
     private let dotAppearance = UIPageControl.appearance()
-        
+    
     var body: some View {
-        
         ZStack{
             
             Image("bg4")
@@ -21,21 +21,21 @@ struct ContentView2: View {
                 .ignoresSafeArea()
             
             
-            TabView(selection: $pageIndex) {
-                ForEach(pages) { page in
+            TabView(selection: $rIndex) {
+                ForEach(r) { r1 in
                     
                     VStack {
                       
-                        PageView(page: page)
+                        PageView4(r: r1)
                         Spacer()
-                        if page == pages.last {
+                        if r1 == r.last {
                             Link("Buy Here!",
-                                  destination: URL(string: "https://www.esteelauder.co.uk/product/26393/112201/product-catalog/skincare/skincarecollections/nutritious/nutritious/airy-lotion-moisturizer")!)
+                                  destination: URL(string: "https://www.esteelauder.com/product/688/112202/product-catalog/skincare/moisturizer/nutritious/melting-soft-crememask-moisturizer")!)
                                 .font(.custom("Akzidenz-Grotesk BQ", size: 25))
                                 .foregroundColor(.white)
                                 .padding(.bottom, 20.0)
                             
-                            NavigationLink(destination: ContentView5()){
+                            NavigationLink(destination: ContentView()){
                                 Text("➜")
                                 .font(.custom("Akzidenz-Grotesk BQ", size: 25))
                                 .frame(width: 80.0, height: 80.0)
@@ -46,7 +46,7 @@ struct ContentView2: View {
                             }
                             
                         } else {
-                            Button("➜", action: incrementPage)
+                            Button("➜", action: incrementS)
                                 .font(.custom("Akzidenz-Grotesk BQ", size: 40))
                                 .frame(width: 80.0, height: 80.0)
                                 .foregroundColor(.white)
@@ -55,10 +55,10 @@ struct ContentView2: View {
                         }
                         Spacer()
                     }
-                    .tag(page.tag)
+                    .tag(r1.tag)
                 }
             }
-            .animation(.easeInOut, value: pageIndex)// 2
+            .animation(.easeInOut, value: rIndex)// 2
             .indexViewStyle(.page(backgroundDisplayMode: .interactive))
             .tabViewStyle(PageTabViewStyle())
             .onAppear {
@@ -68,17 +68,17 @@ struct ContentView2: View {
         }
     }
     
-    func incrementPage() {
-            pageIndex += 1
+    func incrementS() {
+            rIndex += 1
         }
         
     func goToZero() {
-            pageIndex = 0
+            rIndex = 0
         }
 }
 
-struct ContentView2_Previews: PreviewProvider {
+struct ContentView5_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView2()
+        ContentView5()
     }
 }

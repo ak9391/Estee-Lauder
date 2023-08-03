@@ -21,6 +21,9 @@
 		706096082A7C282500184824 /* PageModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096072A7C282500184824 /* PageModel2.swift */; };
 		7060960A2A7C2B2F00184824 /* PageView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096092A7C2B2F00184824 /* PageView2.swift */; };
 		7060960E2A7C2FCC00184824 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7060960D2A7C2FCC00184824 /* ContentView3.swift */; };
+		706096102A7C3A4000184824 /* PageModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7060960F2A7C3A4000184824 /* PageModel3.swift */; };
+		706096122A7C3B4D00184824 /* PageView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096112A7C3B4D00184824 /* PageView3.swift */; };
+		706096142A7C3BE800184824 /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706096132A7C3BE800184824 /* ContentView4.swift */; };
 		70BC398A2A793A6600DE44EC /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39822A793A6600DE44EC /* OptimaDisplay-Roman.ttf */; };
 		70BC398B2A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39832A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf */; };
 		70BC398C2A793A6600DE44EC /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70BC39842A793A6600DE44EC /* OptimaDisplay-Light.ttf */; };
@@ -48,6 +51,9 @@
 		706096072A7C282500184824 /* PageModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel2.swift; sourceTree = "<group>"; };
 		706096092A7C2B2F00184824 /* PageView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView2.swift; sourceTree = "<group>"; };
 		7060960D2A7C2FCC00184824 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		7060960F2A7C3A4000184824 /* PageModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel3.swift; sourceTree = "<group>"; };
+		706096112A7C3B4D00184824 /* PageView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView3.swift; sourceTree = "<group>"; };
+		706096132A7C3BE800184824 /* ContentView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
 		70BC39822A793A6600DE44EC /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
 		70BC39832A793A6600DE44EC /* AkzidenzGroteskBQ-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.otf"; sourceTree = "<group>"; };
 		70BC39842A793A6600DE44EC /* OptimaDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Light.ttf"; sourceTree = "<group>"; };
@@ -92,12 +98,15 @@
 				70315CF92A72AF0A000C6381 /* Estee_LauderApp.swift */,
 				70315CFB2A72AF0A000C6381 /* ContentView.swift */,
 				70315D182A77EBCE000C6381 /* ProductsView.swift */,
-				706096052A7C108B00184824 /* ContentView2.swift */,
 				706096012A7C0B8200184824 /* PageModel.swift */,
 				706096032A7C0D9600184824 /* PageView.swift */,
+				706096052A7C108B00184824 /* ContentView2.swift */,
 				706096072A7C282500184824 /* PageModel2.swift */,
 				706096092A7C2B2F00184824 /* PageView2.swift */,
 				7060960D2A7C2FCC00184824 /* ContentView3.swift */,
+				7060960F2A7C3A4000184824 /* PageModel3.swift */,
+				706096112A7C3B4D00184824 /* PageView3.swift */,
+				706096132A7C3BE800184824 /* ContentView4.swift */,
 				70315D102A77A504000C6381 /* LaunchScreenManager.swift */,
 				70315D0E2A77A01F000C6381 /* LaunchScreenView.swift */,
 				70BC39812A793A6600DE44EC /* esteefonts */,
@@ -213,8 +222,11 @@
 				706096022A7C0B8200184824 /* PageModel.swift in Sources */,
 				7060960E2A7C2FCC00184824 /* ContentView3.swift in Sources */,
 				70315CFC2A72AF0A000C6381 /* ContentView.swift in Sources */,
+				706096122A7C3B4D00184824 /* PageView3.swift in Sources */,
 				7060960A2A7C2B2F00184824 /* PageView2.swift in Sources */,
+				706096102A7C3A4000184824 /* PageModel3.swift in Sources */,
 				70315CFA2A72AF0A000C6381 /* Estee_LauderApp.swift in Sources */,
+				706096142A7C3BE800184824 /* ContentView4.swift in Sources */,
 				70315D112A77A504000C6381 /* LaunchScreenManager.swift in Sources */,
 				70315D0F2A77A01F000C6381 /* LaunchScreenView.swift in Sources */,
 				706096062A7C108C00184824 /* ContentView2.swift in Sources */,
